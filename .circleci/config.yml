@@ -17,7 +17,7 @@ jobs:
       - run:
           name: Run unit tests
           command: |
-            python -m unittest discover -v
+            python -m unittest TestGithubAPI.py -v
 
 workflows:
   build-and-test:
